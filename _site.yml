@@ -1,0 +1,14 @@
+name: "."
+title: "Satie Airame"
+description: |
+  Satie Airame
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Satie"
+      href: satie.html
+output: distill::distill_article
